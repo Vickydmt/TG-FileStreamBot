@@ -9,7 +9,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums.parse_mode import ParseMode
 
-@@StreamBot.on_message(
+@StreamBot.on_message(
     filters.private &
     filters.user([1831875767, 1890756133, 5758112122])
     & (
