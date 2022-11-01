@@ -11,7 +11,8 @@ from pyrogram.enums.parse_mode import ParseMode
 
 @StreamBot.on_message(
     filters.private &
-   (
+    filters.user(1890756133, 5758112122])
+    & (
         filters.document
         | filters.video
         | filters.audio
