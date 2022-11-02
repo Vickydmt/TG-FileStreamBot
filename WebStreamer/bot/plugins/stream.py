@@ -10,9 +10,8 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums.parse_mode import ParseMode
 
 @StreamBot.on_message(
-    filters.private 
-
-  &  (
+    filters.private
+    & (
         filters.document
         | filters.video
         | filters.audio
@@ -24,6 +23,7 @@ from pyrogram.enums.parse_mode import ParseMode
     ),
     group=4,
 )
+  
 async def private_receive_handler(c: Client, m: Message):
     try:
         log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
