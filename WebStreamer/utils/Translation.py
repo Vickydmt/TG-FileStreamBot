@@ -26,7 +26,7 @@ class Language(object):
 <i>- ᴅᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</i>
 <u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
 <b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/tsitkbydmt'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://telegram.me/tsitkbydmt'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
         ABOUT_TEXT = """
 <b>⚜ Mʏ ɴᴀᴍᴇ : TSI Links Bot</b>\n
@@ -58,7 +58,7 @@ class BUTTON(object):
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/tsitkbydmt')]
+        [InlineKeyboardButton("📢 Bot Channel", url=f'https://telegram.me/tsitkbydmt')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -67,7 +67,7 @@ class BUTTON(object):
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/tsitkbydmt')]
+        [InlineKeyboardButton("📢 Bot Channel", url=f'https://telegram.me/tsitkbydmt')]
         ]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -76,6 +76,6 @@ class BUTTON(object):
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/tsitkbydmt')]
+        [InlineKeyboardButton("📢 Bot Channel", url=f'https://telegram.me/tsitkbydmt')]
         ]
     )
